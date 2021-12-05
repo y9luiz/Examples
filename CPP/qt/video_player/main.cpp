@@ -10,7 +10,7 @@ int main(int argc, char * argv[])
 {
     if(argc != 2)
     {
-        cerr << "You should pass an valid URL,\n"<<"e.g.: udp://127.0.0.1:5000"<<endl;
+        cerr << "You should pass an valid URL.\n"<<"e.g.: udp://127.0.0.1:5000"<<endl;
         exit(0);
     }
 
@@ -19,9 +19,7 @@ int main(int argc, char * argv[])
     QApplication app(argc,argv);
     
     QMainWindow main_window;
-
-    main_window.setFixedSize(1280,720);
-        
+    
     QVideoWidget video_widget;
     
     main_window.setCentralWidget(&video_widget);
