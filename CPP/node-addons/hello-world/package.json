@@ -4,13 +4,14 @@
     "description": "just a hello world addon",
     "main": "main.js",
     "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1",
-      "start": "cmake-js compile && node main.js"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "cmake-js compile && node main.js",
+        "start2": "cmake-js compile && node main2.js"
     },
     "author": "y9luiz",
     "license": "ISC",
     "dependencies": {
-      "cmake-js": "^7.1.1"
+        "bindings": "^1.5.0",
+        "cmake-js": "^7.1.1"
     }
 }
-  
