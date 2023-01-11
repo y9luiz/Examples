@@ -1,4 +1,6 @@
-This project's a simple node addons written in C++.
+# Node hello world addon
+
+This project's a simple node addons written in C++ using CMake.
 
 To run it first type
 
