@@ -1,0 +1,16 @@
+{
+    "name": "hello_world",
+    "version": "1.0.0",
+    "description": "just a hello world addon",
+    "main": "main.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "cmake-js compile && node main.js"
+    },
+    "author": "y9luiz",
+    "license": "ISC",
+    "dependencies": {
+      "cmake-js": "^7.1.1"
+    }
+}
+  
